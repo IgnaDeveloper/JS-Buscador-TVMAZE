@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TVMAZE</title>
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <h1>TVMAZE</h1>
+    <input
+      width="20"
+      type="search"
+      id="search"
+      placeholder="Search Movie / Serie"
+      autocomplete="off"
+    />
+    <section id="shows" class="section-responsive"></section>
+    <template id="show-template">
+      <article class="show">
+        <img />
+        <h3></h3>
+        <p></p>
+        <div></div>
+
+        <a href="">
+          <input type="button" class="button-30" value="Ver mas" />
+        </a>
+      </article>
+    </template>
+    <footer>
+      <h3>Sitio hecho con amor por IgnaDeveloper</h3>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
+</html>
